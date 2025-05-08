@@ -67,8 +67,8 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("headerName").textContent = portfolioData.name;
   document.getElementById("headerTitle").textContent = portfolioData.title;
   document.getElementById("aboutText").textContent = portfolioData.about;
-  document.getElementById("contactEmail").textContent = `Email: ${portfolioData.contact.email}`;
-  document.getElementById("contactLinkedIn").innerHTML = `LinkedIn: <a href="${portfolioData.contact.linkedIn}" target="_blank">${portfolioData.contact.linkedIn}</a>`;
+  document.getElementById("contactEmail").innerHTML = `Email: <a href="mailto:${portfolioData.contact.email}">${portfolioData.contact.email}</a>`;
+  document.getElementById("contactLinkedIn").innerHTML = `LinkedIn: <a href="${portfolioData.contact.linkedIn}" target="_blank">LinkedIn</a>`;
 
   // Skills
   const skillsList = document.getElementById("skillsList");
