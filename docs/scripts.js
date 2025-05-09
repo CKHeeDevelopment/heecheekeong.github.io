@@ -52,15 +52,21 @@ const portfolioData = {
     {
       title: "Health Questionnaire App (Android)",
       description: "The Health Questionnaire App is designed to streamline the process of health assessments by collecting detailed information from users through an intuitive questionnaire. By capturing essential health data, the app provides healthcare professionals with a comprehensive overview, enabling them to offer more accurate and personalized health examination services.",
-      images: ["images/mj1.jpg", "images/mj2.jpg", "images/mj3.jpg"],
+      images: [ "images/mj2.jpg", "images/mj3.jpg"],
       githubLink: "https://github.com/yourusername/project2"
     },
     {
-      title: "Herbalife E-Ticket System (iOS)",
+      title: "E-Ticket System (iOS)",
       description: "The application is a membership-based e-ticketing system that enables users to browse and purchase event tickets online. Each e-ticket is issued with a unique QR code, which serves as a digital pass for event entry. Users can securely complete transactions via credit card, with all payments processed through a secure backend system.",
-      images: ["images/herbal1.png", "images/herbal2.png", "images/herbal3.png"],
+      images: ["images/herbal1.png", "images/herbal2.png"],
       githubLink: "https://github.com/yourusername/project2"
-    }
+    },
+    {
+      title: "Brainy Bin (Android and iOS)",
+      description: "The Brainy Bin App is an innovative solution designed to optimize waste management processes. This mobile application allows users to remotely monitor the fill levels of waste bins in real-time and automatically alerts designated personnel when a bin is full and requires emptying. By eliminating the need for routine patrols to check bin status, the app significantly reduces operational inefficiencies and frees up valuable manpower to be redirected to other critical tasks.",
+      images: ["images/bn1.jpg", "images/bn2.jpg", "images/bn3.png"],
+      githubLink: "https://github.com/yourusername/project2"
+    },
   ],
   contact: {
     email: "cksys.development@gmail.com",
@@ -73,8 +79,19 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("headerName").textContent = portfolioData.name;
   document.getElementById("headerTitle").textContent = portfolioData.title;
   document.getElementById("aboutText").textContent = portfolioData.about;
-  document.getElementById("contactEmail").innerHTML = `Email: <a href="mailto:${portfolioData.contact.email}">${portfolioData.contact.email}</a>`;
-  document.getElementById("contactLinkedIn").innerHTML = `LinkedIn: <a href="${portfolioData.contact.linkedIn}" target="_blank">LinkedIn</a>`;
+  // document.getElementById("contactEmail").innerHTML = `Email: <a href="mailto:${portfolioData.contact.email}">${portfolioData.contact.email}</a>`;
+  // document.getElementById("contactLinkedIn").innerHTML = `LinkedIn: <a href="${portfolioData.contact.linkedIn}" target="_blank">LinkedIn</a>`;
+  document.getElementById("contactEmail").innerHTML = `
+  Email: <a href="mailto:${portfolioData.contact.email}">
+    <img src="images/email_icon.png" alt="Email Icon" style="width: 20px; height: 20px;" />
+  </a>
+`;
+
+document.getElementById("contactLinkedIn").innerHTML = `
+  LinkedIn: <a href="${portfolioData.contact.linkedIn}" target="_blank">
+    <img src="images/linkedin_icon.png" alt="LinkedIn Icon" style="width: 20px; height: 20px;" />
+  </a>
+`;
 
   // Skills
   const skillsList = document.getElementById("skillsList");
