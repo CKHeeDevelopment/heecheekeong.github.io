@@ -38,15 +38,21 @@ const portfolioData = {
   ],
   projects: [
     {
-      title: "UVLight Control IoT Project",
+      title: "UVLight Control IoT Project (iOS)",
       description: "A native iOS IoT application to remotely control in-house UV LED sanitizing lights via Bluetooth, enabling instant on/off functionality and scheduled sanitization cycles.",
       images: ["images/zgo1.jpg", "images/zgo2.jpg", "images/zgo3.jpg"],
       githubLink: "https://github.com/yourusername/project1"
     },
     {
-      title: "Smart Magazine ( Android)",
+      title: "Smart Magazine (Android)",
       description: "Smart Magazine is an Android project designed to control, diagnose the status, and modify device values through a BLE connection. Additionally, users can change values using an NFC connection.",
       images: ["images/military1.png", "images/military2.png", "images/military3.png"],
+      githubLink: "https://github.com/yourusername/project2"
+    },
+    {
+      title: "Health Questionnaire App (Android)",
+      description: "The Health Questionnaire App is designed to streamline the process of health assessments by collecting detailed information from users through an intuitive questionnaire. By capturing essential health data, the app provides healthcare professionals with a comprehensive overview, enabling them to offer more accurate and personalized health examination services.",
+      images: ["images/mj1.jpg", "images/mj2.jpg", "images/mj3.jpg"],
       githubLink: "https://github.com/yourusername/project2"
     },
     {
