@@ -10,9 +10,9 @@ const portfolioData = {
       position: "Software Engineer",
       duration: "2022–2025",
       responsibilities: [
-        "Developed  iOS/macOS libraries  for  audio  devices, improving  performance and integration.",
-        "Designed and implemented a secure OAuth 2.0 authorization code flow with PKCE, incorporating secret key exchange and backend token validation to retrieve JWT tokens, ensuring robust authentication integrity and protecting against token interception in compliance with mobile security best practices.",
-        "Optimized Authentication Flow by integrating biometric login (Face ID & Fingerprint) and Keychain storage, significantly reducing login times and improving user experience by eliminating the need for manual username and password entry."
+        "Developed iOS/macOS libraries for audio devices, enhancing performance and ensuring seamless integration with Bluetooth audio technologies.",
+        "Designed and implemented a secure OAuth 2.0 authorization code flow with PKCE, incorporating secret key exchange and backend token validation to retrieve JWT tokens, aligning with mobile security best practices to ensure authentication integrity.",
+        "Enhanced authentication processes by integrating biometric login methods such as Face ID and Fingerprint authentication, utilizing Keychain storage to streamline user access while reducing login times."
       ]
     },
     {
@@ -20,19 +20,19 @@ const portfolioData = {
       position: "Software Engineer",
       duration: "2017–2022",
       responsibilities: [
-        "Developed Android applications with BLE and NFC integration to support secure configuration and management of military-grade devices, improving setup efficiency and reducing manual configuration errors by over 40%.",
-        "Created a cross-platform smart device management app using Ionic, including push notification support and remote alerts, which improved response time to device events and reduced support load by enabling proactive monitoring.",
-        "Engineered a backend data pipeline using Python to process encrypted telemetry from military modules and deliver real-time insights to an AngularJS dashboard. Resolved critical parsing bugs and implemented test coverage for ~96% of known telemetry scenarios, enhancing system reliability and reducing manual interpretation errors for analysts."
+        "Developed Android applications with BLE and NFC integration to support secure configuration and management of military-grade devices, resulting in a 40% improvement in setup efficiency and significant reduction in manual configuration errors.",
+        "Built a cross-platform smart device management application using Ionic, integrating push notifications and remote alerting functionality to enable proactive monitoring. Improved response times to device events and reduced support workload through enhanced situational awareness tools.",
+        "Designed and implemented a backend data pipeline using Python for processing encrypted telemetry from military modules, providing real-time insights through an AngularJS dashboard. Resolved critical parsing bugs and achieved test coverage for approximately 96% of known telemetry scenarios, enhancing system reliability and accuracy."
       ]
     },
     {
       company: "MTech Holdings Sdn. Bhd",
-      position: "Mobile Application Developer ( Android )",
+      position: "Android Developer ( Android )",
       duration: "2016–2017",
       responsibilities: [
-        "Developed and enhanced a survey application, increasing completion rates by 80% through the implementation of a progress bar that visually indicated the remaining survey length, motivating users to complete the survey.",
-        "Developed and maintained an app used by over 580,000 followers, with weekly viewership exceeding 3 million across Malaysia.",
-        "Integrated Google Analytics to track user interactions with coupons and promotions, providing actionable insights to marketing and content teams for improved ad personalization."
+        "Development and enhancement of a survey application, achieving an 80% increase in completion rates through the implementation of a progress bar to indicate remaining survey length",
+        "Creation and maintenance of a mobile application utilized by over 580,000 users, with weekly viewership exceeding 3 million across Malaysia.",
+        "Integration of Google Analytics for tracking user interactions with coupons and promotions, delivering actionable insights to marketing and content teams to optimize ad personalization"
       ]
     }
   ],
